@@ -4,9 +4,9 @@ import plugin from 'tailwindcss/plugin';
 const config: Config = {
   darkMode: 'class', // class-based dark mode
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -19,7 +19,7 @@ const config: Config = {
       },
       colors: {
         customShadowLight: '#ABA498', // Custom light text shadow color
-        customShadowDark: '#B7E7DB', // Custom dark text shadow color
+        customShadowDark: '#BBE9E4', // Custom dark text shadow color
         lightBackground: '#DBDAD9', // Custom light background color
         darkBackground: '#030303', // Custom dark background color
       }
