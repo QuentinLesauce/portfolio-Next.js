@@ -1,29 +1,59 @@
-// components/ProjectPreview.tsx
-import React from 'react';
-import Link from 'next/link';
+'use client'
 
-const ProjectPreview: React.FC = () => {
+import React, { useRef } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { motion, useInView } from 'framer-motion';
+
+type ProjectPreviewProps = {
+  project: {
+    id: string;
+    title: string;
+    image1: string;
+    image2: string;
+    link: string;
+  };
+};
+
+const ProjectPreview: React.FC<ProjectPreviewProps> = ({ project }) => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, amount: 0.5 });
+
   return (
-    <section  id="projects" className="p-10">
-      <h2 className="text-3xl font-bold mb-4">Projects</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div className="border p-4">
-          <h3 className="text-2xl font-bold mb-2">Project 1</h3>
-          <p className="mb-2">Brief description of project 1.</p>
-          <Link href="/projects/1" className="text-blue-500">Read more</Link>
+    <motion.div
+      ref={ref}
+      className="w-full mb-8"
+      initial={{ opacity: 0, translateY: 50 }}
+      animate={isInView ? { opacity: 1, translateY: 0 } : {}}
+      transition={{ duration: 0.6, ease: 'easeOut' }}
+    >
+      <Link href={project.link}>
+        <div className="relative group">
+          <div className="relative w-full h-[33vh]">
+            <Image
+              src={project.image1}
+              alt={`${project.title} Image 1`}
+              fill
+              style={{ objectFit: 'cover' }}
+              className="transition-transform duration-500 ease-in-out transform group-hover:scale-105 rounded-lg shadow-lg z-10"
+            />
+          </div>
+          <div className="absolute top-2 left-2 w-[30vh] h-[30vh]">
+            <Image
+              src={project.image2}
+              alt={`${project.title} Image 2`}
+              fill
+              style={{ objectFit: 'cover' }}
+              className="transition-transform duration-500 ease-in-out transform group-hover:scale-105 rounded-lg shadow-lg"
+            />
+          </div>
+          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-500 ease-in-out z-20"></div>
+          <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out z-30">
+            <h3 className="text-white text-3xl font-bold">{project.title}</h3>
+          </div>
         </div>
-        <div className="border p-4">
-          <h3 className="text-2xl font-bold mb-2">Project 2</h3>
-          <p className="mb-2">Brief description of project 2.</p>
-          <Link href="/projects/2" className="text-blue-500">Read more</Link>
-        </div>
-        <div className="border p-4">
-          <h3 className="text-2xl font-bold mb-2">Project 3</h3>
-          <p className="mb-2">Brief description of project 3.</p>
-          <Link href="/projects/3" className="text-blue-500">Read more</Link>
-        </div>
-      </div>
-    </section>
+      </Link>
+    </motion.div>
   );
 };
 

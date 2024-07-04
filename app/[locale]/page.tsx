@@ -2,10 +2,10 @@ import React from 'react';
 import Hero from '../../components/Hero';
 import Profile from '../../components/Profile';
 import Skills from '../../components/Skills';
-import ProjectPreview from '../../components/ProjectPreview';
 import Contact from '../../components/Contact';
 import { useTranslations } from 'next-intl';
 import Experience from '@/components/Experience';
+import Projects from '@/components/Projects';
 
 
 function Home() {
@@ -18,7 +18,7 @@ function Home() {
         <Profile />
         <Experience />
         <Skills />
-        <ProjectPreview />
+        <Projects />
         <Contact />
       </main>
     </div>
