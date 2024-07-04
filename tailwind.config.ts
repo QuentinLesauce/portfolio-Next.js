@@ -17,9 +17,17 @@ const config: Config = {
         xl: '2px -2px 15px var(--tw-shadow-color)',
         xxl: '2px 2px 32px var(--tw-shadow-color)',
       },
+      boxShadow: {
+        'inner-right': 'inset 12px 0 10px -10px var(--tw-shadow-color)',
+      },
+      dropShadow: {
+        customShadowLight: '0 0 4px #ABA498', // Custom light drop shadow color
+        customShadowDark: '0 0 3px #BBE9E4', // Custom dark drop shadow color
+      },
       colors: {
         customShadowLight: '#ABA498', // Custom light text shadow color
         customShadowDark: '#BBE9E4', // Custom dark text shadow color
+        customShadowDarkRed: '#D86061', // Custom dark text shadow color
         lightBackground: '#DBDAD9', // Custom light background color
         darkBackground: '#030303', // Custom dark background color
       }

@@ -1,6 +1,23 @@
 {
-  "hero_title": "Quentin Le Sauce",
-  "hero_subtitle": "Web developer fullstack",
-  "profile_title": "Profile",
-  "profile_description": "Here's a brief description about yourself. Highlight your experience, interests, and background."
+  "Hero": {
+    "title": "Hero",
+    "h1": "Quentin Le Sauce",
+    "h2": "Web developer fullstack"
+  },
+  "Profile": {
+    "title": "About me",
+    "p1": "Fullstack web developer with 3 years of experience in designing, developing and maintaining robust web applications. Proficient in JavaScript, React, Node.js, Python and SQL/NoSQL databases. Passionate about solving complex problems and continuously improving application performance."
+  },
+  "Experience": {
+    "title": "Experience"
+  },
+  "Skills": {
+    "title": "Skills"
+  },
+  "Projects": {
+    "title": "Projects"
+  },
+  "Contact": {
+    "title": "Contact"
+  }
 }

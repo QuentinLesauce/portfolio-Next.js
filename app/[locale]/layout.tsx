@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import '../../styles/globals.css';
+import { ThemeProvider } from '../../components/ThemeProvider';
 
 export const metadata: Metadata = {
   title: 'Quentin Le Sauce',
@@ -28,7 +29,9 @@ export default async function RootLayout({
       <head />
       <body>
         <NextIntlClientProvider messages={messages}>
-          {children}
+          <ThemeProvider>
+            {children}
+          </ThemeProvider>
         </NextIntlClientProvider>
       </body>
     </html>
