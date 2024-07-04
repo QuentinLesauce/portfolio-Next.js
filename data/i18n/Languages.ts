@@ -1,0 +1,1 @@
+export const Languages: string[] = ['en', 'fr', 'es'];

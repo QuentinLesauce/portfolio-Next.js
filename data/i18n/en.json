@@ -1,0 +1,41 @@
+{
+  "Hero": {
+    "title": "Home",
+    "h1": "Quentin Le Sauce",
+    "h2": "Fullstack Web Developer"
+  },
+  "Profile": {
+    "title": "About",
+    "p1": "Fullstack web developer with 3 years of experience in designing, developing, and maintaining robust web applications. Skilled in JavaScript, React, Node.js, Python, and SQL/NoSQL databases. Passionate about solving complex problems and continuously improving application performance."
+  },
+  "Experience": {
+    "title": "Experience",
+    "exp1": {
+      "date": "Oct 2023 - Present",
+      "companyName": "Nybble Security | Rennes, France",
+      "job": "FullStack Web Developer",
+      "description": "As a FullStack developer at Nybble, I was responsible for FrontEnd and BackEnd development of various platforms. I worked on adding new features as well as improving performance, reliability, and ease of use. My role also included standardizing solutions to ensure a consistent and efficient user experience, utilizing advanced technologies to optimize our processes."
+    },
+    "exp2": {
+      "date": "2021 - 2023",
+      "companyName": "Nybble Security | Rennes, France",
+      "job": "Apprentice Web Developer",
+      "description": "I contributed to the development of the Nybble Hub platform, specialized in the standardized processing of cyber threats. Working on both FrontEnd and BackEnd aspects, I participated in creating the platform from scratch, choosing appropriate technologies, and developing key features. My role also involved continuously improving performance and user experience."
+    },
+    "exp3": {
+      "date": "2017 - 2021",
+      "companyName": "ULMA Handling Systems | Oñati, Spain",
+      "job": "Automation Engineer",
+      "description": "I contributed to the commissioning of automation systems for logistics platforms across France. My role included programming and configuring programmable logic controllers (PLC) using industrial programming languages such as ladder logic and SFC. I was also responsible for integrating various equipment and creating human-machine interfaces (HMI) for effective monitoring and control of automated systems."
+    }
+  },
+  "Skills": {
+    "title": "Skills"
+  },
+  "Projects": {
+    "title": "Projects"
+  },
+  "Contact": {
+    "title": "Contact"
+  }
+}

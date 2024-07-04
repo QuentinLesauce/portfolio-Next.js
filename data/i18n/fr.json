@@ -1,0 +1,41 @@
+{
+  "Hero": {
+    "title": "Accueil",
+    "h1": "Quentin Le Sauce",
+    "h2": "Développeur web fullstack"
+  },
+  "Profile": {
+    "title": "À propos",
+    "p1": "Développeur web fullstack avec 3 ans d'expérience dans la conception, le développement et la maintenance d'applications web robustes. Compétent en JavaScript, React, Node.js, Python et bases de données SQL/NoSQL. Passionné par la résolution de problèmes complexes et l'amélioration continue des performances des applications."
+  },
+  "Experience": {
+    "title": "Expérience",
+    "exp1": {
+      "date": "oct 2023 - en cours",
+      "companyName": "Nybble Security | Rennes, France",
+      "job": "Développeur web FullStack",
+      "description": "En tant que développeur FullStack chez Nybble, j'étais responsable du développement FrontEnd et BackEnd des différentes plateformes. J'ai travaillé sur l'ajout de nouvelles fonctionnalités, ainsi que sur l'amélioration des performances, de la fiabilité et de la simplicité d'utilisation. Mon rôle comprenait également la standardisation des solutions pour assurer une expérience utilisateur cohérente et efficace, en utilisant notamment des technologies avancées pour optimiser nos processus."
+    },
+    "exp2": {
+      "date": "2021 - 2023",
+      "companyName": "Nybble Security | Rennes, France",
+      "job": "Développeur web en apprentissage",
+      "description": "J'ai contribué au développement de la plateforme Nybble Hub, spécialisée dans le traitement standardisé des cybermenaces. En travaillant sur les aspects FrontEnd et BackEnd, j'ai participé à la création de la plateforme dès ses débuts, en choisissant les technologies appropriées et en développant des fonctionnalités clés. Mon rôle a également impliqué l'amélioration continue des performances et de l'expérience utilisateur."
+    },
+    "exp3": {
+      "date": "2017 - 2021",
+      "companyName": "ULMA Handling Systems | Oñati, Espagne",
+      "job": "Automaticien",
+      "description": "Je contribue à la mise en service des systèmes d'automatisation pour les plateformes logistiques à travers la France. Mon rôle inclut la programmation et la configuration de contrôleurs logiques programmables (PLC) en utilisant des langages de programmation industriels tels que le ladder et le SFC. Je suis également responsable de l'intégration de divers équipements et de la création d'interfaces homme-machine (HMI) pour une surveillance et un contrôle efficaces des systèmes automatisés."
+    }
+  },
+  "Skills": {
+    "title": "Skills"
+  },
+  "Projects": {
+    "title": "Projets"
+  },
+  "Contact": {
+    "title": "Contact"
+  }
+}

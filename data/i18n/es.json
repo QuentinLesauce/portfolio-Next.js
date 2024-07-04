@@ -1,0 +1,41 @@
+{
+  "Hero": {
+    "title": "Inicio",
+    "h1": "Quentin Le Sauce",
+    "h2": "Desarrollador Web Fullstack"
+  },
+  "Profile": {
+    "title": "Acerca de",
+    "p1": "Desarrollador web fullstack con 3 años de experiencia en el diseño, desarrollo y mantenimiento de aplicaciones web robustas. Competente en JavaScript, React, Node.js, Python y bases de datos SQL/NoSQL. Apasionado por resolver problemas complejos y mejorar continuamente el rendimiento de las aplicaciones."
+  },
+  "Experience": {
+    "title": "Experiencia",
+    "exp1": {
+      "date": "Oct 2023 - Presente",
+      "companyName": "Nybble Security | Rennes, Francia",
+      "job": "Desarrollador Web FullStack",
+      "description": "Como desarrollador FullStack en Nybble, fui responsable del desarrollo FrontEnd y BackEnd de varias plataformas. Trabajé en la adición de nuevas funcionalidades, así como en la mejora del rendimiento, la fiabilidad y la facilidad de uso. Mi rol también incluyó la estandarización de soluciones para asegurar una experiencia de usuario coherente y eficiente, utilizando tecnologías avanzadas para optimizar nuestros procesos."
+    },
+    "exp2": {
+      "date": "2021 - 2023",
+      "companyName": "Nybble Security | Rennes, Francia",
+      "job": "Desarrollador Web en Aprendizaje",
+      "description": "Contribuí al desarrollo de la plataforma Nybble Hub, especializada en el tratamiento estandarizado de amenazas cibernéticas. Trabajando tanto en el FrontEnd como en el BackEnd, participé en la creación de la plataforma desde cero, eligiendo las tecnologías adecuadas y desarrollando funciones clave. Mi rol también implicó la mejora continua del rendimiento y la experiencia del usuario."
+    },
+    "exp3": {
+      "date": "2017 - 2021",
+      "companyName": "ULMA Handling Systems | Oñati, España",
+      "job": "Ingeniero de Automatización",
+      "description": "Contribuí a la puesta en marcha de sistemas de automatización para plataformas logísticas en toda Francia. Mi rol incluía la programación y configuración de controladores lógicos programables (PLC) utilizando lenguajes de programación industriales como el ladder y el SFC. También fui responsable de la integración de diversos equipos y de la creación de interfaces hombre-máquina (HMI) para una supervisión y control efectivos de los sistemas automatizados."
+    }
+  },
+  "Skills": {
+    "title": "Habilidades"
+  },
+  "Projects": {
+    "title": "Proyectos"
+  },
+  "Contact": {
+    "title": "Contacto"
+  }
+}
